@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-08T12:45:21 IST" name="Default suite" finished-at="2025-03-08T12:45:30 IST" duration-ms="9022">
+    <groups>
+    </groups>
+    <test started-at="2025-03-08T12:45:21 IST" name="Default test" finished-at="2025-03-08T12:45:30 IST" duration-ms="9022">
+      <class name="Devendra.CureHealthE2E.MakeAppointment">
+        <test-method signature="Makeappt()[pri:0, instance:Devendra.CureHealthE2E.MakeAppointment@f78a47e]" started-at="2025-03-08T12:45:21 IST" name="Makeappt" finished-at="2025-03-08T12:45:30 IST" duration-ms="8991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Makeappt -->
+      </class> <!-- Devendra.CureHealthE2E.MakeAppointment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

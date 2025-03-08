@@ -7,9 +7,12 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
+
 public class BaseTest {
 	WebDriver driver;
-	public WebDriver webdriverintialize() throws IOException
+	
+	public WebDriver initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"src\\main\\java\\Devendra\\CureHealthE2E\\GlobalData.properties");
@@ -32,4 +35,6 @@ public class BaseTest {
 		return driver;
 		
 	}
+	
+	
 }
